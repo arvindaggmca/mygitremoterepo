@@ -1,0 +1,80 @@
+retail emcommerce-- marketsales (regiion,city,online sales), customer reivews on products
+
+walmart- ecommers - warehouse proudcut- 1. stores  and online ( bigdata)
+
+
+hive sqoop hbase kafka spark 
+airflow
+aws services- lambda,glue emr 
+your worked on ignestion framework-- where u are ingesting different sources and writing data different target.
+files(csv,json,xml) 
+rdbms (oracle mysql
+nosql (cassandra,mongo,hbase,elasticseach)
+snowflakes(cloud sql datawarehouse)
+
+===============
+
+files(csv,json,xml) 
+rdbms (oracle mysql
+nosql (cassandra,mongo,hbase,elasticseach)
+snowflakes(cloud sql datawarehouse)
+
+
+def readinputdata():
+
+property file configuration --> information of source and target
+source.file.type=csv
+target.database.oracle.database=mydb
+target.dabta
+
+filetype=source.file.type
+
+if(fileype="csv"||
+match value:
+case value => spark.read.format(value).load("filepath")
+elif(type="
+case value => spark.read.format(value).option("use",user).option("password",passwrd).load()
+
+
+
+def writeoutputdata():
+
+
+
+def innerjoin(df1,df2,pk):
+ return df1.join(df2,df1(pk)==df2(pk)
+
+sparkconverer--> csv files -> hive tables 
+you got 10 csv files->10 tables in hive
+
+
+data ingestion 
+data validation --> data type casting check->
+
+date      name    age
+2021-09-09
+xyz -> null
+
+
+validdataframe-> valid data frame which no null values-> actual hive business table based on partition -> date wise load data in partion is date partiioni. df.write.paritionbY(date).insertInto(table)
+invlid dataframe-> 
+
+policyfile
+transactionfile
+
+error
+============
+tablename columnname errordata loaddate
+policy   policydate   xyz  03/26/2023
+policy   policyyears  c    
+
+
+spark-submit --propertyFile input_csv_output_hive
+input_oracle_output_csv
+
+customer--> payment, address,personal ,
+
+
+python script which is reading s3 files transaction data -> snowflakes 
+
+pyspark- pyspark->
